@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(255, 216, 216);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alertContainer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.alert{
+    background-color: rgb(255, 255, 103);
+    margin: 0;
+    position: relative;
+    transition: all 0.4s ease;
+}
